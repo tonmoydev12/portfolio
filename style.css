@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Fredoka', sans-serif; 
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    max-width: 1080px;
+    margin: auto;
+}
+img{
+    max-width: 100%;
+}
+/* Main Menu Style */
+.top-menu-bar{
+    background: crimson;
+    padding: 14px;
+}
+.main-menu{   
+    display: flex;
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.menu-items ul{
+    display: flex;
+    padding-top: 8px;
+}
+.menu-items ul li a{
+    padding: 15px 20px;
+    font-size: 20px;
+}
+
+/* About-Myself */
+
+.about-myself{
+    background: url(./complete-web-development-bangla-resources-master/personal-website/header-bg.png);
+    background-size: cover;
+    height: 100vh;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 250px 0;
+}
+.about-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 150px;
+    font-size: 30px;
+}
+.about-text h3{
+    font-weight: 400;
+}
+.about-text h2{
+    color: crimson;
+    font-weight: 500;
+    font-size: 50px;
+}
+.about-text p{
+    font-size: 20px;
+    margin-top: 30px;
+    width: 500px;
+    color: #656565;
+}
+.about-text .button{
+    padding: 45px 0;
+}
+.about-text .button a{
+    background: #EC487E;
+    padding: 15px 38px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.about-img img{
+    width: 350px;
+}
+
+/* Biography */
+
+.biography{
+    background: url(./complete-web-development-bangla-resources-master/personal-website/biography-bg.png);
+    background-size: cover;
+    height: 100vh;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 150px 0;
+}
+.biography-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 150px;
+    font-size: 30px;
+}
+.biography-text h3{
+    font-weight: 400;
+}
+.biography-text h2{
+    color: crimson;
+    font-weight: 500;
+    font-size: 50px;
+}
+.biography-text p{
+    font-size: 20px;
+    margin-top: 30px;
+    width: 500px;
+    color: #656565;
+}
+.biography-text .button{
+    padding: 45px 0;
+}
+.biography-text .button a{
+    background: #EC487E;
+    padding: 15px 38px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.biography-img img{
+    width: 350px;
+}
+
+/* Portfolio */
+
+.portfolio{
+    background: url(./complete-web-development-bangla-resources-master/personal-website/latest-work-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+.portfolio .wrapper{
+    padding: 200px 0;
+}
+
+.portfolio .header-text h3{
+        font-size: 30px;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: -100px;
+        padding-top: 90px;
+    }
+
+/* Client Area */
+.testimonial{
+    padding: 50px;
+    background: url(./complete-web-development-bangla-resources-master/personal-website/footer-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+.text-wrapper{
+    text-align: center;
+}
+.testimonial .test-text h3{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 500;
+        margin-bottom: 85px;
+}
+.test-text h4{
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.test-text h5{
+    font-weight: 400;
+}
+.test-text p{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 70px;
+    margin-top: 25px;
+}
+
+.mail-link{
+    background: #EC487E;
+    color: #fff;
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+    border-radius: 5px;
+}
+.mail-link a{
+    font-size: 30px;
+    display: block;
+   
+}
+
+/* Footer */
+
+.footer-text p{
+    text-align: center;
+    padding: 30px 0;
+}
